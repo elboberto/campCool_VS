@@ -12,9 +12,10 @@
             campCool. Portable, solar cooling for your next trek.<br />
             <br />
             Join our newsletter for more information on our product when it becomes available.<br />
-            <asp:TextBox ID="txtEmail" runat="server" Width="420px">Enter email address</asp:TextBox>
-&nbsp;<asp:Button ID="Button1" runat="server" Text="Join Our Newsletter" />
+            <asp:TextBox ID="txtEmail" runat="server" onClick="txtEmail_Click" Width="420px">Enter email address</asp:TextBox>
+&nbsp;<asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Join Our Newsletter" />
         </div>
+        <asp:Label ID="Label1" runat="server"></asp:Label>
     </form>
 </body>
 </html>
