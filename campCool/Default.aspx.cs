@@ -17,14 +17,8 @@ namespace campCool
             string connString = "Server = tcp:campcoolsqlserver.database.windows.net,1433; Initial Catalog = campCoolUserDB; Persist Security Info = False; User ID =sqladmin; Password = k0Vd48DIfPA19WYc; MultipleActiveResultSets = False; Encrypt = True; TrustServerCertificate = False; Connection Timeout = 30;";
             string emailAddress = txtEmail.Text;
             campCool.InsertData(connString, emailAddress);
-            Label1.Text = txtEmail.Text;
-            // Response.Redirect("http://www.microsoft.com/");
+            Response.Redirect("~/thankyou.html");
 
-        }
-
-        protected void txtEmail_Click(object sender, System.EventArgs e)
-        {
-            txtEmail.Text = "";
         }
 
         private static void InsertData(string connString, string emailAddress)
