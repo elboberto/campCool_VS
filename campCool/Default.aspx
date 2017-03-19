@@ -21,6 +21,7 @@
 						<div class="content">
 							<h1>campCool</h1>
 							<p class="major"><!--[-->Portable, solar cooling for your next trek.<!--]--></p>
+                            <p class="main">campCool is guaranteed to keep you comfortable whether you're on the backpacking trip of a lifetime, camping for a few days off the grid, or just headed to the beach for the afternoon. campCool provides completely portable and renewable cooling through solar technology.</p>
                             <form id="form1" runat="server">
 							<ul class="actions vertical">
                                 <li>Join our newsletter for more information on our product when it becomes available.</li>
