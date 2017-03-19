@@ -30,7 +30,7 @@
                             </form>
 						</div>
 						<div class="image">
-							<img src="images/banner.jpg" alt="" />
+							<img src="images/camp_banner.jpg" alt="" />
 						</div>
 					</section>   
 </body>

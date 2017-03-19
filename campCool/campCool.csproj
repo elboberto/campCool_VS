@@ -178,6 +178,7 @@
     <Content Include="assets\sass\main.scss" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="images\banner.jpg" />
+    <Content Include="images\camp_banner.jpg" />
     <Content Include="images\gallery\fulls\01.jpg" />
     <Content Include="images\gallery\fulls\02.jpg" />
     <Content Include="images\gallery\fulls\03.jpg" />
